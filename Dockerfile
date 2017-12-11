@@ -1,4 +1,4 @@
-FROM ruby:alpine
+FROM ruby:2.4.1-alpine
 
 RUN gem install brakeman
 RUN gem install rubocop
