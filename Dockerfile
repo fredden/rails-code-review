@@ -1,5 +1,7 @@
 FROM ruby:alpine
 
+RUN apk add --no-cache build-base
+
 RUN gem install brakeman
 RUN gem install rubocop
 RUN gem install rails_best_practices
